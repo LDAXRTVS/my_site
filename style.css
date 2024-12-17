@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000000, #232deb);
+    color: aliceblue;
+}
+
+
+.center-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#openqwe {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff007a;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#openqwe:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#openqwe:active {
+    transform: scale(1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+h4 {
+    color: white; 
+    font-size: 20px; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    margin: 0; 
+}
